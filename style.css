@@ -1,0 +1,24 @@
+:root{
+    background-color: chartreuse;
+}
+button {
+  background-color: rgba(0, 0, 255, 0.817);
+  color: white;
+  padding-block: 10px;
+  padding-inline: 40px;
+  margin-block: 50px;
+  margin-inline: 50px;
+  cursor: pointer;
+  border: 1px soloid color(srgb red green blue);
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: rgb(72, 91, 91);
+  color: bisque;
+}
+button:active{
+    background-color: brown;
+    color: burlywood;
+}
+
