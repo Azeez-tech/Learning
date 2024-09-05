@@ -1,7 +1,16 @@
-:root{
-    background-color: chartreuse;
+body {
+  background-color: chartreuse;
 }
-button {
+section {
+  margin-inline: 20px;
+}
+h1 {
+  margin-inline: 50px;
+}
+p {
+  font-size: 20px;
+}
+/* button {
   background-color: rgba(0, 0, 255, 0.817);
   color: white;
   padding-block: 10px;
@@ -20,5 +29,39 @@ button:hover {
 button:active{
     background-color: brown;
     color: burlywood;
+} */
+
+header {
+  border: 2px solid red;
+  background-color: blue;
+  /* text-align: center; */
+}
+nav ul li{
+  display: inline;
+  list-style-type: none;
+}
+nav ul li a{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin-inline: 35px;
+  border-radius: 10px;
+}
+ul li{
+  text-decoration: none;
 }
 
+.pra a{
+  background-color: red;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-inline: 30px;
+}
+
+a{
+  padding-block: 10px;
+  padding-inline: 10px;
+  margin-block: 10px;
+  margin-inline: 10px;
+}
