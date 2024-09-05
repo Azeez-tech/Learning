@@ -189,3 +189,4 @@ switch (weather) {
     default:
         console.log(`No need for rain coat.`)
 }*/
+
